@@ -1,6 +1,5 @@
 body {
 background-color: #4bb3c9;
-
 }
 .background {
 height: 100vh;   
@@ -13,11 +12,8 @@ filter: blur(20px);
 .container {
 display: inline-block;
 width: 800px;
-margin-top: 100px;
-margin-left: calc((100% - 800px) /2 );
-position: relative;
 position: absolute;
-/* top calc((100px - 140px) / 2);
+/* top calc((100vh - 460px) / 2);
 left: calc((100% - 800px) / 2); */
 top: 50%;
 left: 50%;
@@ -54,7 +50,7 @@ font-weight: normal;
 .bottom-links > .link {
 color: #fff;
 }
-.bottom-links > .text {
+.bottom-links > .text {  
 }
 .right-column {
 display: inline-block;

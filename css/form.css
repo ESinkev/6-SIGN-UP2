@@ -28,7 +28,7 @@
         border-bottom: 1px solid #777;
     }
    .input:focus {
-       outline: 2px solid #0069ba;
+       outline: 3px solid #0069ba;
    }
     .form-row > .text {
     display: inline-block;
@@ -41,9 +41,9 @@
     padding: 10px;
     line-height: 20px;
     font-size: 18px;
-    color: royalblue;
+    color: #0069ba;
     }
-    .form-row > ./link:hover {
+    .form-row > .link:hover {
         color: red;
     }
     
