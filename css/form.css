@@ -24,9 +24,12 @@
         width: 100%;
         font-size: 18px;
         line-height: 25px;
-    
+        border: none;
+        border-bottom: 1px solid #777;
     }
-   
+   .input:focus {
+       outline: 2px solid #0069ba;
+   }
     .form-row > .text {
     display: inline-block;
     padding: 10px;
@@ -39,5 +42,8 @@
     line-height: 20px;
     font-size: 18px;
     color: royalblue;
+    }
+    .form-row > ./link:hover {
+        color: red;
     }
     
